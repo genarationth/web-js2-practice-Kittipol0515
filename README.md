@@ -13,21 +13,21 @@ Work in pairs to complete the following table:
 
 | Value to be converted | number() | String() | Boolean() |
 |-----------------------|----------|----------|-----------|
-| false                 |          |          |    x      |
-| true                  |          |          |    x      |
-| 0                     |    x     |          |           |
-| 1                     |    x     |          |           |
-| “0”                   |          |    x     |           |
-| “000”                 |          |    x     |           |
-| “1”                   |          |    x     |           |
-| NaN                   |          |    x     |           |
-| Infinity              |    x     |          |           |
-| -Infinity             |    x     |          |           |
-| “”                    |          |    x     |           |
-| “20”                  |          |    x     |           |
-| “Twenty”              |          |    x     |           |
-| null                  |          |    x     |           |
-| undefinited           |          |    x     |           |
+| false                 |    0     |   false  |    false  |
+| true                  |    1     |   true   |    true   |
+| 0                     |    0     |    0     |    false  |
+| 1                     |    1     |   1      |   true    |
+| “0”                   |   “0”    |  “0”     |    “0”    |
+| “000”                 |   “000”  |  “000”   |   “000”   |
+| “1”                   |   “1”    |  “1”     |   “1”     |
+| NaN                   |  NaN     | 'NaN'    | false     |
+| Infinity              |  Infinity|'Infinity'|  true     |
+| -Infinity             | -Infinity|'-Infinity'| true     |
+| “”                    |  “”      |    “”    |   “”      |
+| “20”                  |  “20”    | “20”     |  “20”     |
+| “Twenty”              |  “Twenty”| “Twenty” |  “Twenty” |
+| null                  |   0      | 'null'   |    false  |
+| undefinited           | undefinited is not defined        
 
 
 ## Part 2:  New contender
